@@ -1,0 +1,162 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "University website validation",
+    "line": 1,
+    "id": "university-website-validation",
+    "tags": [],
+    "uri": "Universityapp.feature",
+    "elements": [
+      {
+        "id": "university-website-validation;verify-knowmore-button-is-working-in-university-ranking-table-for-each-university",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify Knowmore button is working in university ranking table for each university",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Launch the url",
+            "result": {
+              "status": "passed",
+              "duration": 18389000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "validate Knowmore button",
+            "result": {
+              "status": "passed",
+              "duration": 1296000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "university-website-validation;verify-more-than-4-universities-shouldnot-be-compared",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify more than 4 universities shouldnot be compared",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "Launch the url",
+            "result": {
+              "status": "passed",
+              "duration": 14039000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Compare more than 4 universities",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "university-website-validation;verify-less-than-5-universities-should-be-compared",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify Less than 5 universities should be compared",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "Launch the url",
+            "result": {
+              "status": "passed",
+              "duration": 10724000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "Compare less than 4 universities",
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "university-website-validation;verify-the-ad's-present-in-the-world-university-ranking-page",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify the ad's present in the world university ranking page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "Launch the url",
+            "result": {
+              "status": "passed",
+              "duration": 9124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "validate the individual ad's",
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "university-website-validation;verify-the-year-in-the-world-university-ranking-page",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Verify the year in the world university ranking page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "Launch the url",
+            "result": {
+              "status": "passed",
+              "duration": 11200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "validate the year",
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
